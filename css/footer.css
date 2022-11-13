@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #2454d4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.img-footer{
+    width: 200px;
+    height: 90px;
+    margin: 20px;
+}
+
+.lista-footer{
+    list-style-type: none;
+    display: flex;
+}
+
+.item-footer{
+    padding: 15px;
+}
