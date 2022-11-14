@@ -28,6 +28,8 @@
     height: 50vh;
     margin: 20px auto 20px auto;
     position: relative;
+    background-color: #b4b4b4;
+    border-radius: 20px;
 }
 
 .carrossel2{
@@ -58,7 +60,6 @@
 .titulo-gameboy{
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 20px;
     color: #b4b4b4;
 }
 
@@ -137,7 +138,7 @@
     transform: translate(-50%,-50%);
     z-index: 3;
     border: 2px solid rgb(0, 78, 0);
-    box-shadow: rgba(0, 128, 0, 0.658) 10px 5px, rgba(0, 128, 0, 0.527)  15px 10px, rgba(0, 128, 0, 0.411) 20px 15px;
+    
 }
 
 
