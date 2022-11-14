@@ -87,3 +87,18 @@
         height: auto;
     }
 }
+
+@media screen and (max-width:360px) {
+    .menu-lista{
+        flex-direction: column;
+    }
+
+    .menu-link{
+        font-size: 30px;
+    }
+
+    .menu-item{
+        padding: auto;
+        text-align: center;
+    }
+}
