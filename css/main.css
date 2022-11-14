@@ -3,6 +3,11 @@
     height: 100%;
 }
 
+.sw{
+    width: 400px;
+    height: 300px;
+}
+
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -23,6 +28,13 @@
     height: 50vh;
     margin: 20px auto 20px auto;
     position: relative;
+}
+
+.carrossel2{
+  width: 90%;
+  height: 50vh;
+  margin: 20px auto 20px auto;
+  position: relative;
 }
 
 .gameboy{
@@ -57,11 +69,6 @@
     padding: 15px;
 }
 
-.sw {
-    width: 400px;
-    height: 500px;
-    margin: 0 auto;
-  }
 
   .swiper-slide {
     display: flex;
