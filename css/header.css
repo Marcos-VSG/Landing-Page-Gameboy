@@ -13,14 +13,10 @@
     height: 20%;
 }
 
-#menu-icone{
-    font-size: 2rem;
-    display: none;
-}
-
 .menu-lista{
     display: flex;
     list-style-type: none;
+    flex-wrap: wrap;
     font-size: 2rem;
 }
 
