@@ -15,27 +15,17 @@
     }
 
     .menu-lista{
-        flex-direction: column;
+        flex-direction: row;
     }
     
     .gameboy{
         grid-template-columns: 1fr;
     }
 
-    #menu-icone {
-        display: block;
+    .menu-link{
+        font-size: 20px;       
     }
 
-    .menu-item {
-        display: none;
-    }
-
-   
-
-    .menu-item:hover {
-        background-color: gray;
-        width: 100vw;
-    }
 
     .menu-link:hover {
         background-color: white;
@@ -79,5 +69,21 @@
         width: 250px;
         height: 100%;
         margin: 0 auto;
+    }
+
+    .titulo-carrossel{
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 70%;
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+        background-color: #b4b4b454;
+        padding: 10px 15px;
+        border-radius: 20px;
+        height: auto;
     }
 }
