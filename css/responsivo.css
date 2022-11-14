@@ -100,5 +100,6 @@
     .menu-item{
         padding: auto;
         text-align: center;
+        width: 100vw;
     }
 }
