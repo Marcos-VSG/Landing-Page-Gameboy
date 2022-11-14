@@ -37,9 +37,6 @@
     <header class="header" id="topo">
         <img src="img/logo-gameBoy.png" class="header-logo">
 
-        <span id="menu-icone" class="material-symbols-outlined">
-            menu
-        </span>
 
         <nav class="menu">
             <ul class="menu-lista">
@@ -116,15 +113,17 @@
 
         <section class="gameboy" id="jogos">
             <div class="div-gameboy">
-                <!-- Swiper -->
 
-                <div class="sw my">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img/tetris-game.png" alt=""></div>
-                        <div class="swiper-slide"><img src="img/tetris-game-02.png" alt=""></div>
-                        <div class="swiper-slide"><img src="img/tetris-game10.png" alt=""></div>
+                <section class="carrossel2">
+                    <!-- Swiper -->
+                    <div class="sw my">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/tetris-game.png" alt=""></div>
+                            <div class="swiper-slide"><img src="img/tetris-game-02.png" alt=""></div>
+                            <div class="swiper-slide"><img src="img/tetris-game10.png" alt=""></div>
+                        </div>
                     </div>
-                </div>
+                </section>
             </div>
             <div class="div-gameboy">
                 <h2 class="titulo-gameboy">Tetris</h2>
@@ -151,7 +150,6 @@
         </ul>
     </footer>
 
-
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
@@ -171,16 +169,7 @@
         });
     </script>
 
-    <script>
-        const menu = document.getElementById('menu-icone');
-        const link = document.getElementsByClassName('menu-item');
-
-        menu.addEventListener('click', () => {
-            for (i = 0; i <= link.length; i++) {
-                link[i].classList.toggle('hab');
-            }
-        })
-    </script>
+    
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
