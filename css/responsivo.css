@@ -14,8 +14,8 @@
         display: block;
     }
 
-    .menu-lista{
-        flex-direction: row;
+   .menu-lista{
+        flex-direction: column;
     }
     
     .gameboy{
